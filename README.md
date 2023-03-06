@@ -1,5 +1,6 @@
 # Anamoly-detection
 
+***Kaggle dataset Link and References***
 - https://www.kaggle.com/datasets/stephanmatzka/condition-monitoring-dataset-ai4i-2021
 - https://www.kaggle.com/datasets/fedesoriano/synchronous-machine-dataset
 
