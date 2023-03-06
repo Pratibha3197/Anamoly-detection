@@ -1,4 +1,4 @@
-# Anomaly-detection
+# Anomaly-Detection
 
 ***Kaggle dataset Link and References***
 - https://www.kaggle.com/datasets/stephanmatzka/condition-monitoring-dataset-ai4i-2021
