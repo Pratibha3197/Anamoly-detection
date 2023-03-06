@@ -19,9 +19,24 @@ For other data, you can get data set from kaggle or other online sources as well
 
 Study on MCSA, model-based VI analysis, and how they're applied to predict machine failure.
 
-Timeline: 48hrs (from the day you receive the task)
 How to submit:
 Share it on GitHub or GitLab with proper documentation 
 1. what you have done - logic
 2. how it can be set up and tested in an isolated system (share deployable/dockerized code)
 3. create an anomaly in the data set provided and show that your code can detect it (TDD testing)
+
+### Objective of The Analysis
+
+
+### Methods used
+
+
+### MLops
+
+
+
+### Dockerization
+
+
+
+### Conclusion
