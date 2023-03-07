@@ -32,8 +32,45 @@ Share it on GitHub or GitLab with proper documentation
 
 
 ### MLops
+# mlflow-fastapi (The below code will work on Linux OS)
 
+### Reference
+- Code: [[notebook](https://github.com/kennethleungty/End-to-End-AutoML-Insurance/tree/main/notebooks)]
+- Data: [[Kaggle Competition](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who?resource=download)]
 
+1. Setup the working environment:
+- Clone the repository in step 1 to local machine.
+- Create new environment with Conda and activate it.
+- Install required packages (the reference code base doesn't contain the "requirements.txt" so that I have to install manually).
+
+2. Set up the MLFlow (install mlflow package and integrate with the source code) with the reference from [MLFlow documentation](https://www.mlflow.org/docs/latest/model-registry.html) and [this article](https://towardsdatascience.com/end-to-end-automl-train-and-serve-with-h2o-mlflow-fastapi-and-streamlit-5d36eedfe606).
+- Start MLFlow with `mlflow ui`
+- Customize code for MLFLow integration: log params and perform model registry.
+
+**To Run the MLflow UI"
+mlflow server \
+       --backend-store-uri sqlite:///mlflow.db \
+       --default-artifact-root ./artifacts \
+       --host 0.0.0.0 \
+       --port 5000
+   ```
+   
+ 
+   ```python
+   mlflow.set_tracking_uri("http://localhost:5000")
+   ```
+   
+   Run the `baseline_model.py` and check the MLFlow UI, you will see the new model in Models tab. 
+
+5. Write the `load_model_with_mlflow.py` to fetch MLflow Model from the Model Registry (base on [this documentation](https://mlflow.org/docs/latest/model-registry.html#fetching-an-mlflow-model-from-the-model-registry)) 
+
+6. Setup the FastAPI with the model loaded from MLFlow Registry
+
+* Determine the input feature's schema (in `app/models.py`)
+* Identify the model name and model version you want to load (in `main.py`).
+* Run: `uvicorn app.main:app --reload`
+
+**Note**: I haven't setup the FastApi code for this
 
 ### Dockerization
 
