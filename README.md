@@ -51,17 +51,13 @@ mlflow server \
        --port 5000
    ```
    
- 
    ```python
    mlflow.set_tracking_uri("http://localhost:5000")
    ```
    
-   Run the `baseline_model.py` and check the MLFlow UI, you will see the new model in Models tab. 
-
-5. Write the `load_model_with_mlflow.py` to fetch MLflow Model from the Model Registry (base on [this documentation](https://mlflow.org/docs/latest/model-registry.html#fetching-an-mlflow-model-from-the-model-registry)) 
+5. To fetch MLflow Model from the Model Registry (base on [this documentation](https://mlflow.org/docs/latest/model-registry.html#fetching-an-mlflow-model-from-the-model-registry)) 
 
 6. Setup the FastAPI with the model loaded from MLFlow Registry
-
 * Determine the input feature's schema (in `app/models.py`)
 * Identify the model name and model version you want to load (in `main.py`).
 * Run: `uvicorn app.main:app --reload`
@@ -70,6 +66,3 @@ mlflow server \
 
 ### Dockerization
 
-
-
-### Conclusion
