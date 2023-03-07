@@ -34,10 +34,6 @@ Share it on GitHub or GitLab with proper documentation
 ### MLops
 #### mlflow-fastapi 
 
-### Reference
-- Code: [[notebook](https://github.com/kennethleungty/End-to-End-AutoML-Insurance/tree/main/notebooks)]
-- Data: [[Kaggle Competition](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who?resource=download)]
-
 1. Setup the working environment:
 - Clone the repository in step 1 to local machine.
 - Create new environment with Conda and activate it.
