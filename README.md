@@ -32,7 +32,7 @@ Share it on GitHub or GitLab with proper documentation
 
 
 ### MLops
-# mlflow-fastapi (The below code will work on Linux OS)
+#### mlflow-fastapi 
 
 ### Reference
 - Code: [[notebook](https://github.com/kennethleungty/End-to-End-AutoML-Insurance/tree/main/notebooks)]
