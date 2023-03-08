@@ -50,7 +50,7 @@ Anomalies detection and machine failure prediction.
 
 
 3. PCA
-
+![Screenshot from 2023-03-08 10-27-01](https://user-images.githubusercontent.com/51690129/223625022-e7567477-df50-49ba-8aa3-8345caa8e0fc.png)
 ![Motor current signature analysis](https://user-images.githubusercontent.com/51690129/223624327-15170a35-fe31-4601-80fe-1d938694cca4.png)
 ![Model-based vibration analysis](https://user-images.githubusercontent.com/51690129/223624341-a75ea87b-59d6-481d-8154-8222483f07fb.png)
 
