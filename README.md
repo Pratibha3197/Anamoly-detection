@@ -51,8 +51,7 @@ Anomalies detection and machine failure prediction.
 
 ### 3. PCA
 ![Screenshot from 2023-03-08 10-27-01](https://user-images.githubusercontent.com/51690129/223625022-e7567477-df50-49ba-8aa3-8345caa8e0fc.png)
-
-![Motor current signature analysis](https://user-images.githubusercontent.com/51690129/223624327-15170a35-fe31-4601-80fe-1d938694cca4.png)
+![image](https://user-images.githubusercontent.com/51690129/223627086-fce4fdc6-1157-44fe-aea3-262ee730da5d.png)
 
 ![Model-based vibration analysis](https://user-images.githubusercontent.com/51690129/223624341-a75ea87b-59d6-481d-8154-8222483f07fb.png)
 
@@ -91,7 +90,7 @@ mlflow server \
 * Identify the model name and model version you want to load (in `main.py`).
 * Run: `uvicorn app.main:app --reload`
 
-**Note**: I haven't setup the FastApi code for this
+**Note**: I haven't setup the FastApi code for this. Also, I am familiar with dockerization but not at expert level.
 
 
 
